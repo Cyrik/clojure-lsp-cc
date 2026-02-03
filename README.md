@@ -13,6 +13,6 @@ Install clojure-lsp: https://clojure-lsp.io/installation/
 ## Installation
 
 ```bash
-claude plugin marketplace add github:Cyrik/clojure-lsp-cc
+claude plugin marketplace add Cyrik/clojure-lsp-cc
 claude plugin install clojure-lsp-cc@clojure-lsp-cc
 ```
