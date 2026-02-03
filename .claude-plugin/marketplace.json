@@ -1,0 +1,30 @@
+{
+    "name": "clojure-lsp-cc",
+    "description": "Clojure LSP integration for Claude Code",
+    "owner": {
+        "name": "Lukas Domagala"
+    },
+    "plugins": [
+        {
+            "name": "clojure-lsp-cc",
+            "description": "Clojure LSP integration for Claude Code",
+            "version": "1.0.0",
+            "author": {
+                "name": "Lukas Domagala"
+            },
+            "source": "./",
+            "lspServers": {
+                "clojure": {
+                    "command": "clojure-lsp",
+                    "args": [],
+                    "extensionToLanguage": {
+                        ".clj": "clojure",
+                        ".cljs": "clojure",
+                        ".cljc": "clojure",
+                        ".edn": "clojure"
+                    }
+                }
+            }
+        }
+    ]
+}

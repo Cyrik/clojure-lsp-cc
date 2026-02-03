@@ -1,0 +1,6 @@
+{
+    "name": "clojure-lsp-cc",
+    "version": "1.0.0",
+    "description": "Clojure LSP integration for Claude Code",
+    "lspServers": "./.lsp.json"
+}
